@@ -17,7 +17,7 @@ marp: true
 - 同じグラフを2Dと3Dでそれぞれ10秒ずつ提示し、注視活動を計測する
   - グラフを提示する前に5秒間ずつ問題文が提示される
 
-![2D](./../../assets/research-project2/Media002.png) ![3D](./../../assets/research-project2/Media003.png)
+![2D](./../../assets/research-project2/Media003.png) ![3D](./../../assets/research-project2/Media002.png)
 
 ---
 
