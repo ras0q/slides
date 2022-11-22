@@ -27,7 +27,7 @@ marp: true
   - 1回目は特に指示を行わず自由観察
   - 2回目は特定の数値を読み取るよう指示
 
-![research](./../../assets/research-project2/research.png)
+![right:50% bg fit](./../../assets/research-project2/research.png)
 
 ---
 
@@ -50,7 +50,7 @@ marp: true
 - 指示文はややばらつき増加
 - 2Dグラフは2回目で指定された箇所への注視が増加
 
-![gazediff1](../../assets/research-project2/gazediff1.png)
+![right:50% bg fit](../../assets/research-project2/gazediff1.png)
 
 <!-- group1/sub2/R -->
 
@@ -61,7 +61,7 @@ marp: true
 - 指示文はややばらつき増加
 - 2Dグラフはタイトルや説明文への注視が減少し、グラフの中への注視が増加
 
-![gazediff2](../../assets/research-project2/gazediff2.png)
+![right:50% bg fit](../../assets/research-project2/gazediff2.png)
 
 <!-- group1/sub2/R -->
 
@@ -72,7 +72,8 @@ marp: true
 - 指示文はともにほぼ変化せず
 - グラフはともに減少
 
-![count](./../../assets/research-project2/boxplot_fixation_count.png)
+※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
+![right:50% bg fit](./../../assets/research-project2/boxplot_fixation_count.png)
 
 ---
 
@@ -81,7 +82,8 @@ marp: true
 - 指示文はともに若干減少
 - グラフはともに中央値は増加したが平均はほぼ変化せず
 
-![totaltime](../../assets/research-project2/boxplot_fixation_totaltime.png)
+※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
+![right:50% bg fit](../../assets/research-project2/boxplot_fixation_totaltime.png)
 
 ---
 
@@ -90,7 +92,8 @@ marp: true
 - 指示文はともに平均、中央値はほぼ変わらず、ばらつきが増加
 - 2Dグラフは減少したが3Dグラフはやや増加
 
-![totaldistance](../../assets/research-project2/boxplot_fixation_totaldistance.png)
+※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
+![right:50% bg fit](../../assets/research-project2/boxplot_fixation_totaldistance.png)
 
 ---
 
