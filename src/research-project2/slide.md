@@ -19,6 +19,8 @@ marp: true
 
 ![2D](./../../assets/research-project2/Media003.png) ![3D](./../../assets/research-project2/Media002.png)
 
+> 参考文献: Designing for Visual Influence: an Eye Tracking Study of the Usability of Graphical Management Information (Renshaw et al.)
+
 ---
 
 ## 実験内容
@@ -37,31 +39,37 @@ marp: true
 - アイマークデータ解析ソフトウェア「EMR-dStream2」を使用
   - 両目の動きを時系列で記録できる
   - 複数画像の切り替わりにも対応
-- CSV形式のデータをPythonで分析
+- Pythonでプログラムを作成し、CSV形式のデータを分析
+  - 注視点の分布
   - 注視点の総数
   - 総注視時間
   - 注視点間の総距離
-  - 注視点の動き
 
 ---
 
-## 実験結果 - 注視点の動き1
+## 実験結果 - 注視点の分布1
 
-- 指示文はややばらつき増加
-- 2Dグラフは2回目で指定された箇所への注視が増加
+- 1回目はタイトルや目盛りをよく見る傾向
+- 2回目は指定された箇所への注視が増加
 
-![right:50% bg fit](../../assets/research-project2/gazediff1.png)
+※図はある被験者の右目の注視点の分布
+
+![right:40% bg fit](../../assets/research-project2/gazediff_2d.png)
 
 <!-- group1/sub2/R -->
 
 ---
 
-## 実験結果 - 注視点の動き2
+## 実験結果 - 注視点の分布2
 
-- 指示文はややばらつき増加
-- 2Dグラフはタイトルや説明文への注視が減少し、グラフの中への注視が増加
+- 1回目はタイトルや説明文への注視が多い
+- 2回目はグラフの中への注視が増加
+  - 指定された箇所への注視が
+    特に多いわけではない
 
-![right:50% bg fit](../../assets/research-project2/gazediff2.png)
+※図はある被験者の右目の注視点の分布
+
+![right:40% bg fit](../../assets/research-project2/gazediff_3d.png)
 
 <!-- group1/sub2/R -->
 
@@ -102,3 +110,10 @@ marp: true
 - 1回目は何も指示されていなことから、どこを見ればよいか分からないため細かなデータよりもタイトル、説明文も含めた画像全体を見ることが多い
 - 2回目は特定の数値を読み取る必要があることから、説明文よりもグラフ中の特定のデータに注視するように
 - 2回目は既に一度見ているため、グラフに関して注視点の数は減少し、特定箇所への注視時間が増加した
+
+---
+
+## 課題
+
+- 2回目の3Dグラフにおいて、なぜ指示された箇所ではなくグラフ内全体への注視が増加したのか
+- なぜ注視点間の総距離は2Dグラフでは減少したのに3Dグラフでは増加したのか
