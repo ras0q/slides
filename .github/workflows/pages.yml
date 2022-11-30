@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - 'main'
-    paths:
-      - 'src/**'
-      - '.github/workflows/pages.yml'
   pull_request:
 
 jobs:
