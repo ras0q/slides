@@ -201,7 +201,7 @@ response: 元気です
 
 ## 方針
 
-- レポジトリ: <https://github.com/Ras96/research-project1>
+- レポジトリ: <https://github.com/ras0q/research-project1>
 - Go言語を使用
 - [manifoldco/promptui](https://github.com/manifoldco/promptui)を使いインタラクティブなCLIを作成
 - 指標の計算には外部パッケージ(ライブラリ)を用いる → 次ページ
