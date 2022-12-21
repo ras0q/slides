@@ -11,7 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: docker://marpteam/marp-cli:latest
+      - name: Copy assets
+        run: |
+          rm -rf ./dist/
+          rsync -a --exclude '*.md' ./src/ ./dist/
+      - name: Generate slides
+        uses: docker://marpteam/marp-cli:latest
         with:
           args: -o ./dist -I ./src
         env:
