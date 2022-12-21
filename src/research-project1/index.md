@@ -32,7 +32,7 @@ marp: true
 - GUIを使用し、ノーコードで作ることが可能
 - 今回は「連絡先をやんわりと断る」というテーマでシナリオを作成
 
-![sunaba1](../../assets/research-project1/sunaba1.png) ![sunaba2](../../assets/research-project1/sunaba2.png)
+![sunaba1](./sunaba1.png) ![sunaba2](./sunaba2.png)
 
 <!-- 前半ではSUNABAを用いて「連絡先をやんわりと断る」というシナリオを作成しました。
 SUNABAは、ドコモが開発したチャットボット製作サービスで、GUIを用いてノーコードで作ることもできます。 -->

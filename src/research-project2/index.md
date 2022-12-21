@@ -17,7 +17,7 @@ marp: true
 - 同じグラフを2Dと3Dでそれぞれ10秒ずつ提示し、注視活動を計測する
   - グラフを提示する前に5秒間ずつ問題文が提示される
 
-![2D](./../../assets/research-project2/Media003.png) ![3D](./../../assets/research-project2/Media002.png)
+![2D](./Media003.png) ![3D](./Media002.png)
 
 > 参考文献: Designing for Visual Influence: an Eye Tracking Study of the Usability of Graphical Management Information (Renshaw et al.)
 
@@ -29,7 +29,7 @@ marp: true
   - 1回目は特に指示を行わず自由観察
   - 2回目は特定の数値を読み取るよう指示
 
-![right:50% bg fit](./../../assets/research-project2/research.png)
+![right:50% bg fit](./research.png)
 
 ---
 
@@ -54,7 +54,7 @@ marp: true
 
 ※図はある被験者の右目の注視点の分布
 
-![right:40% bg fit](../../assets/research-project2/gazediff_2d.png)
+![right:40% bg fit](./gazediff_2d.png)
 
 <!-- group1/sub2/R -->
 
@@ -69,7 +69,7 @@ marp: true
 
 ※図はある被験者の右目の注視点の分布
 
-![right:40% bg fit](../../assets/research-project2/gazediff_3d.png)
+![right:40% bg fit](./gazediff_3d.png)
 
 <!-- group1/sub2/R -->
 
@@ -81,7 +81,7 @@ marp: true
 - グラフはともに減少
 
 ※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
-![right:50% bg fit](./../../assets/research-project2/boxplot_fixation_count.png)
+![right:50% bg fit](./boxplot_fixation_count.png)
 
 ---
 
@@ -91,7 +91,7 @@ marp: true
 - グラフはともに中央値は増加したが平均はほぼ変化せず
 
 ※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
-![right:50% bg fit](../../assets/research-project2/boxplot_fixation_totaltime.png)
+![right:50% bg fit](./boxplot_fixation_totaltime.png)
 
 ---
 
@@ -101,7 +101,7 @@ marp: true
 - 2Dグラフは減少したが3Dグラフはやや増加
 
 ※グラフは1枚目1回目, 1枚目2回目, 2枚目1回目...の順で表示
-![right:50% bg fit](../../assets/research-project2/boxplot_fixation_totaldistance.png)
+![right:50% bg fit](./boxplot_fixation_totaldistance.png)
 
 ---
 
