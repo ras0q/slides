@@ -18,7 +18,7 @@ jobs:
       - name: Generate slides
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: -o ./dist -I ./src
+          args: -o ./dist/ -I ./src/ --html true
         env:
           MARP_USER: root:root
       - uses: actions/upload-pages-artifact@v1
